@@ -4,7 +4,7 @@ import 'story.dart';
 class StoryBrain{
 //Step 7 - Uncomment the lines below to include storyData as a private property in StoryBrain. Hint: You might need to change something in story.dart to make this work.
 
-int storyNumber = 0;
+int _storyNumber = 0;
 
  final List<Story> _storyData = [
  Story(
